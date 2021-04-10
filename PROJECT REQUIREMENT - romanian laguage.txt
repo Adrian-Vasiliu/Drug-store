@@ -1,0 +1,12 @@
+Farmacie Online cu următoarele funcționalități:
+1. CRUD (Create, Read, Update, Delete) medicament: id, nume, producător, preț, necesită rețetă. Prețul să fie strict pozitiv.
+2. CRUD card client: id, nume, prenume, CNP, data nașterii (dd.mm.yyyy), data înregistrării (dd.mm.yyyy). CNP-ul trebuie să fie unic.
+3. CRUD tranzacție: id, id_medicament, id_card_client (poate fi nul), nr_bucăți, data și ora.
+Dacă există un card client, atunci se aplică o reducere de 10% dacă medicamentul nu necesită rețetă și de 15% dacă necesită. Se tipărește prețul plătit și reducerile acordate.
+4. Căutare medicamente și clienți după nume, producător, prenume, CNP etc. Căutare full text
+5. Afișarea tuturor tranzacțiilor dintr-un interval de zile dat.
+6. Afișarea medicamentelor ordonate descrescător după numărul de vânzări.
+7. Afișarea cardurilor client ordonate descrescător după valoarea reducerilor obținute.
+8. Ștergerea tuturor tranzacțiilor dintr-un anumit interval de zile.
+9. Scumpirea cu un procentaj dat a tuturor medicamentelor cu prețul mai mic decât o valoare dată.
+10.Undo+Redo
